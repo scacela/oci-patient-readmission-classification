@@ -5,8 +5,10 @@ A healthcare provider is looking to track which patients are likely to be readmi
 \
 Patients who have been hospitalized are getting their vitals monitored periodically, and this data is added to a dataset. When each of the patient's vitals have been recorded, the recorded measurements populate a new row in a dataset, along with the patient's age, gender, name, place of residence, diagnosed condition, the date of the onset of the condition, the date of the recorded measurement, and the time since the patient has been discharged from the hospital.\
 \
-For many patients, their status as patients who have been readmitted to the hospital within 30 days of discharge has been recorded. This is the historical data that the healthcare provider can used to make informed decisions about patients whose status as 30-day-readmitted patients is still to be determined.
-
+For many patients, their status as patients who have been readmitted to the hospital within 30 days of discharge has been recorded. This is the historical data that the healthcare provider can used to make informed decisions about patients whose status as 30-day-readmitted patients is still to be determined.\
+\
+## Technical implementation
+A number of resources are used to build together a system that can be used to train a machine learning model that can be used to classify patients as likely or unlikely candidates for 30-day-readmission. These resources are listed here.
 - [Serve.py](Serve.py): DS Job artifact for using the ML model to perform the inference operation
 - [Train.py](Train.py): DS Job artifact for training ML model
 - Training data: [Download](https://objectstorage.us-ashburn-1.oraclecloud.com/p/ivMJoamUG_ikAHjFuhB-wYtinA7jzg8eMtuzzl1Vj94DU_XRnR6pSLK13TqS5ci0/n/orasenatdpltintegration03/b/readmission_training/o/Train_data_2.csv)
