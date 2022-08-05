@@ -12,7 +12,7 @@ A number of resources are used to build together a system that can be used to tr
 - [Train.py](Train.py): DS Job artifact for training ML model
 - Training data: [Download](https://objectstorage.us-ashburn-1.oraclecloud.com/p/ivMJoamUG_ikAHjFuhB-wYtinA7jzg8eMtuzzl1Vj94DU_XRnR6pSLK13TqS5ci0/n/orasenatdpltintegration03/b/readmission_training/o/Train_data_2.csv)
 - Inference data: [Download](https://objectstorage.us-ashburn-1.oraclecloud.com/p/F5oNZzmlLOyvldlenYLYgZ7aXrc4DNzLrMXSgVRJHWFJRhnG7g2WDU6cuuzKF51E/n/orasenatdpltintegration03/b/readmission_inference/o/Infer_data_2.csv) 
-- [Architecture Diagram](Architecture_Diagram.pptx)
+- Architecture Diagram: [Download](https://github.com/scacela/oci-patient-readmission-classification/raw/main/Architecture_Diagram.pptx)
 ## Additional notes
 Additional implementation options to consider for the next version of the architecture diagram:
 - For training automation, use OAC as the scheduler instead of Data Integration. From the OAC instance, a Function will be called, which calls the DS Job run.
