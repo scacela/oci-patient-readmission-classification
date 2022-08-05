@@ -10,6 +10,7 @@ For many patients, their status as patients who have been readmitted to the hosp
 A number of resources are used to build together a system that can be used to train a machine learning model that can be used to classify patients as likely or unlikely candidates for 30-day-readmission. These resources are listed here.
 - <b>Serve.py</b> [\[View\]](Serve.py) DS Job artifact for using the ML model to perform the inference operation
 - <b>Train.py</b> [\[View\]](Train.py) DS Job artifact for training ML model
+- <b>Steps to create a custom conda environment</b> [\[View\]](Steps_to_create_custom_conda_env.md) Steps on how to create the custom conda environment that supports the operations programmed in Train.py and Serve.py
 - <b>Training data</b> [\[Download\]](https://objectstorage.us-ashburn-1.oraclecloud.com/p/ivMJoamUG_ikAHjFuhB-wYtinA7jzg8eMtuzzl1Vj94DU_XRnR6pSLK13TqS5ci0/n/orasenatdpltintegration03/b/readmission_training/o/Train_data_2.csv)
 - <b>Inference data</b> [\[Download\]](https://objectstorage.us-ashburn-1.oraclecloud.com/p/F5oNZzmlLOyvldlenYLYgZ7aXrc4DNzLrMXSgVRJHWFJRhnG7g2WDU6cuuzKF51E/n/orasenatdpltintegration03/b/readmission_inference/o/Infer_data_2.csv) 
 - <b>Architecture Diagram</b> [\[Download\]](https://github.com/scacela/oci-patient-readmission-classification/raw/main/Architecture_Diagram.pptx)
